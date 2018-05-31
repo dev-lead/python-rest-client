@@ -19,7 +19,7 @@ Create a simple command-line REST client called `restful.py` able to `GET` and `
 
 ### Version Control
 
-We use Git for version control. Once the challenge is completed, please push your code to a new repository in your personal GitHub or Bitbucket account, then email us the URL so that we can pull and review your submission.
+We use Git for version control. Once the challenge is completed, please push your code to a new repository in your personal GitHub or Bitbucket account, then email us the URL so that we can clone and review your submission.
 
 ## Example Usage
 
