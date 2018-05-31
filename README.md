@@ -11,11 +11,15 @@ Create a simple command-line REST client called `restful.py` able to `GET` and `
 5. Error-handling: script should always display the response's HTTP status code. If the response code is not `2XX`, the script should exit with an error message and non-zero exit code, and not perform any additional action.
 6. Object-oriented: all functionality after argument parsing should be performed by class methods, rather than in procedural-style functions.
 
-### Command-line arguments and options
+### Command-line Arguments and Options
 
 *  Positional argument `METHOD` a choice of `get` or `post`
 *  Positional argument `ENDPOINT` is any URI fragment, i.e., `/posts/1`
 *  Option `-o OUTFILE, --output OUTFILE` should write response to a JSON file if `OUTFILE` ends with `.json`, or to a CSV file if `OUTFILE` ends with `.csv`. If `OUTFILE` not provided, the default behavior should be to dump the response JSON to `stdout`.
+
+### Version Control
+
+We use Git for version control. Once the challenge is completed, please push your code to a new repository in your personal GitHub or Bitbucket account, then email us the URL so that we can pull and review your submission.
 
 ## Example Usage
 
