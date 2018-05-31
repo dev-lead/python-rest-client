@@ -49,13 +49,19 @@ $ ./restful.py get /posts
 GET all posts and dump to JSON file:
 
 ```
-$ ./restful.py get /posts/1 -o test.json
+$ ./restful.py get /posts -o test.json
 ```
 
 GET all posts and dump to CSV file:
 
 ```
-$ ./restful.py get /posts/1 -o test.csv
+$ ./restful.py get /posts -o test.csv
+```
+
+GET one post and dump to console:
+
+```
+$ ./restful.py get /posts/1
 ```
 
 POST a new dummy post and dump response to console:
